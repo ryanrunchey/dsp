@@ -22,10 +22,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 [pwd] show current working directory path
 [mkdir] creating a directory
 deleting a directory
-[touch filename.ext]creating a file using touch command
+[touch filename.ext] creating a file using touch command
 [] deleting a file
 renaming a file
-listing hidden files
+[ls -a] listing hidden files
 copying a file from one directory to another
 
 ---
