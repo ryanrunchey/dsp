@@ -61,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* -a	Displays all files.
+* -p	Displays directories with /
+* -R	Displays subdirectories as well.
+* -t	Displays newest files first. (based on timestamp)
+* -1	Displays each entry on a line.
 
 ---
 
@@ -69,7 +73,14 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* What is the xargs command in UNIX?
+The xargs command in UNIX is a command line utility for building an execution pipeline from standard input. Whilst tools like grep can accept standard input as a parameter, many other tools cannot. Using xargs allows tools like echo and rm and mkdir to accept standard input as arguments. - https://shapeshed.com/unix-xargs/
+
+* The most common usage of xargs is to use it with the find command. This uses find to search for files or directories and then uses xargs to operate on the results. Typical examples of this are removing files, changing the ownership of files or moving files. 
+
+find /tmp -mtime +14 | xargs rm
+
+* finds and removes files in the directory /temp that are two weeks or older
 
  
 
