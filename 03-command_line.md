@@ -19,18 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-[pwd] show current working directory path
-[mkdir] creating a directory
-[rm -r directoryname] delete a directory by recursively deleting all folders and files within the directory
-[touch filename.ext] creating a file using touch command
-[rm] deleting a file
-[-r] stands for recursive (i.e. rm -r deletes a directory and all of its child directories.)
-[mv] renaming a file or folder since renaming is interpretted by the system as moving the file
-[ls] list all files and directories in the current directory 
-[-a] show hidden files (i.e. ls -a shows all contents in a directory including hidden files)
-[cp] copying a file from one directory to another
-[sort] takes a filename or standard input and orders each line alphabetically, printing it to a standard output.
-[mv] moves a file or directory taken as an input in the first argument to the location of the directory in the second argument
+* [pwd] show current working directory path
+* [mkdir] creating a directory
+* [rm -r directoryname] delete a directory by recursively deleting all folders and files within the directory
+* [touch filename.ext] creating a file using touch command
+* [rm] deleting a file
+* [-r] stands for recursive (i.e. rm -r deletes a directory and all of its child directories.)
+* [mv] renaming a file or folder since renaming is interpretted by the system as moving the file
+* [ls] list all files and directories in the current directory 
+* [-a] show hidden files (i.e. ls -a shows all contents in a directory including hidden files)
+* [cp] copying a file from one directory to another
+* [sort] takes a filename or standard input and orders each line alphabetically, printing it to a standard output.
+* [mv] moves a file or directory taken as an input in the first argument to the location of the directory in the second argument
 
 ---
 
@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t` 
 `ls -Glp`
 
-[ls] lists all files and folders in the current working directory.  
-[ls -a]  lists all files and folders including hidden files in the current working directory
-[ls -l]  lists all contents in the directory in long format
-[ls -lh]  lists all contents in the directory in long format and human readable sizes (i.e. 1K, 234M)
-[ls -lah]  lists all contents in the directory in long format, including hidden files, and human readable sizes (i.e. 1K, 234M)
-[ls -t] lists all contents in the directory by the time they were last modified 
-[ls -Glp]  lists all contents in the directory, highlights different file types with different colors, in long format, and Display a slash (‘/’) immediately after each pathname that is a directory.
+* [ls] lists all files and folders in the current working directory.  
+* [ls -a]  lists all files and folders including hidden files in the current working directory
+* [ls -l]  lists all contents in the directory in long format
+* [ls -lh]  lists all contents in the directory in long format and human readable sizes (i.e. 1K, 234M)
+* [ls -lah]  lists all contents in the directory in long format, including hidden files, and human readable sizes (i.e. 1K, 234M)
+* [ls -t] lists all contents in the directory by the time they were last modified 
+* [ls -Glp]  lists all contents in the directory, highlights different file types with different colors, in long format, and Display a slash (‘/’) immediately after each pathname that is a directory.
 
 
 
