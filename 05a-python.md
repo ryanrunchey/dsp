@@ -48,7 +48,11 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+* lambda function is an anonymous function that can be written on one line.
+ * the sorted function works as follows: sorted(mylist, key=WhatToSortBy)
+ * for example: use a lambda function to return a list sorted by odd numbers first followed by even numbers
+   * mylist = [3,6,3,2,4,8,23]
+   * sorted(mylist, key=lambda x: x%2==0)
 
 ---
 
