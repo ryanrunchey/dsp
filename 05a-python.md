@@ -12,7 +12,12 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+* Similar: 
+  * both lists and tuples are indexed data structures
+* Different: 
+  * tuples are immutable meaning that once made, they cannot change over time
+  * lists are mutable meaning that once made, you can change them over time
+
 
 ---
 
